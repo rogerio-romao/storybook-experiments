@@ -4,7 +4,9 @@ module.exports = {
         node: true,
         browser: true,
     },
+
     root: true,
+
     plugins: [
         'unicorn',
         'import',
@@ -13,13 +15,16 @@ module.exports = {
         'promise',
         '@typescript-eslint',
     ],
+
     parser: '@typescript-eslint/parser',
+
     parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
         project: true,
         tsconfigRootDir: __dirname,
     },
+
     rules: {
         // Possible Errors
         'array-callback-return': [
@@ -499,4 +504,6 @@ module.exports = {
         '@typescript-eslint/no-useless-constructor': 'error',
         '@typescript-eslint/require-await': 'error',
     },
+
+    extends: ['plugin:storybook/recommended']
 };

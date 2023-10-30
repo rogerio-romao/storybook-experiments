@@ -1,0 +1,68 @@
+.storybook-page {
+    font-family: Nunito Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    padding: 3rem 1.25rem;
+    margin: 0 auto;
+    max-inline-size: 37.5rem;
+    color: #333;
+
+    & h2 {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 1;
+        margin: 0 0 0.25rem;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    & p {
+        margin: 1em 0;
+    }
+
+    & a {
+        text-decoration: none;
+        color: #1ea7fd;
+    }
+
+    & ul {
+        padding-inline-start: 1.875rem;
+        margin: 1em 0;
+    }
+
+    & li {
+        margin-block-end: 0.5rem;
+    }
+
+    & .tip {
+        display: inline-block;
+        border-radius: 1em;
+        font-size: 0.6875rem;
+        line-height: 0.75rem;
+        font-weight: 700;
+        background: #e7fdd8;
+        color: #66bf3c;
+        padding: 0.25rem 0.75rem;
+        margin-inline-end: 0.625rem;
+        vertical-align: top;
+    }
+
+    & .tip-wrapper {
+        font-size: 0.8125rem;
+        line-height: 1.25rem;
+        margin-block: 2.5rem 2.5rem;
+
+        & svg {
+            display: inline-block;
+            block-size: 0.75rem;
+            inline-size: 0.75rem;
+            margin-inline-end: 0.25rem;
+            vertical-align: top;
+            margin-block-start: 0.1875rem;
+
+            & path {
+                fill: #1ea7fd;
+            }
+        }
+    }
+}
