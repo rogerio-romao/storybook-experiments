@@ -411,10 +411,7 @@ module.exports = {
         '@typescript-eslint/consistent-type-definitions': ['warn', 'interface'],
         '@typescript-eslint/consistent-type-exports': 'error',
         '@typescript-eslint/consistent-type-imports': 'error',
-        '@typescript-eslint/explicit-module-boundary-types': [
-            'error',
-            { allowDirectConstAssertionInArrowFunctions: false },
-        ],
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/method-signature-style': 'warn',
         '@typescript-eslint/no-base-to-string': 'error',
         '@typescript-eslint/no-confusing-non-null-assertion': 'warn',
@@ -505,5 +502,5 @@ module.exports = {
         '@typescript-eslint/require-await': 'error',
     },
 
-    extends: ['plugin:storybook/recommended']
+    extends: ['plugin:storybook/recommended'],
 };

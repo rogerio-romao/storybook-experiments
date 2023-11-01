@@ -1,0 +1,17 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+label {
+    font-family: Roboto, sans-serif;
+}
+
+input[type='checkbox'] {
+    border: 1px solid #666;
+    background-color: #fff;
+    inline-size: 1rem;
+    block-size: 1rem;
+}
