@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@isnotdefined/stylelint-plugin':
-    specifier: ^3.1.0
-    version: 3.1.0(stylelint@15.11.0)
+    specifier: ^4.0.0
+    version: 4.0.0(stylelint@15.11.0)
   '@playwright/test':
     specifier: ^1.39.0
     version: 1.41.1
@@ -2098,10 +2098,10 @@ packages:
       wrap-ansi-cjs: /wrap-ansi@7.0.0
     dev: true
 
-  /@isnotdefined/stylelint-plugin@3.1.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-GVHznan1Ze09IwBpYqDgKrVDjjdKtpUAEXJgfJS4gYrJHCTrgLnKJ78fz46MQNgaLOoZ5BjZMJ3jYM4RVaYiMQ==}
+  /@isnotdefined/stylelint-plugin@4.0.0(stylelint@15.11.0):
+    resolution: {integrity: sha512-KHUgUWK/dZp88JRa3qBpS2VCsbPota2y/Gz9QHCRN/CzQEuV9XttJrNzKNyUjVCNdo61ZQTy/CqCyPiQpg50yA==}
     peerDependencies:
-      stylelint: ^15
+      stylelint: ^16
     dependencies:
       postcss: 8.4.33
       postcss-values-parser: 6.0.2(postcss@8.4.33)
