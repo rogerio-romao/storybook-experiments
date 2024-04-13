@@ -62,7 +62,7 @@
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-unicorn": "^51.0.1",
     "husky": "^9.0.0",
-    "msw": "^2.0.1",
+    "msw": "^2.2.13",
     "storybook": "^8.0.5",
     "stylelint": "^16.2.1",
     "stylelint-a11y": "^1.2.3",
