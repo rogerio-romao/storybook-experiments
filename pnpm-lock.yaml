@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^8.0.9
     version: 8.0.9(vitest@1.2.1)
   '@storybook/addon-links':
-    specifier: ^8.0.0
-    version: 8.0.0(react@18.2.0)
+    specifier: ^8.1.0
+    version: 8.1.0(react@18.2.0)
   '@storybook/addon-onboarding':
     specifier: ^8.0.9
     version: 8.0.9
@@ -2667,15 +2667,15 @@ packages:
       - vitest
     dev: true
 
-  /@storybook/addon-links@8.0.0(react@18.2.0):
-    resolution: {integrity: sha512-UjB68EJwSvRsD326KJAzYkuzhCdJmkliiitaqSJ7GUdgGgTkKC7cqH8QmRC0SK5qRi0lN59ARIKPiP5wjsEeOw==}
+  /@storybook/addon-links@8.1.0(react@18.2.0):
+    resolution: {integrity: sha512-aI0+sr6dnqciGO/rNED4yk1E2+leKD+r7wRwEb+FP/qkNO3wlfvhHl5XFVAQrNMA54fFOBJAfQqM22lYZsGQ0g==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
     peerDependenciesMeta:
       react:
         optional: true
     dependencies:
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.7
       '@storybook/global': 5.0.0
       react: 18.2.0
       ts-dedent: 2.2.0
@@ -3358,6 +3358,12 @@ packages:
 
   /@storybook/csf@0.1.4:
     resolution: {integrity: sha512-B9UI/lsQMjF+oEfZCI6YXNoeuBcGZoOP5x8yKbe2tIEmsMjSztFKkpPzi5nLCnBk/MBtl6QJeI3ksJnbsWPkOw==}
+    dependencies:
+      type-fest: 2.19.0
+    dev: true
+
+  /@storybook/csf@0.1.7:
+    resolution: {integrity: sha512-53JeLZBibjQxi0Ep+/AJTfxlofJlxy1jXcSKENlnKxHjWEYyHQCumMP5yTFjf7vhNnMjEpV3zx6t23ssFiGRyw==}
     dependencies:
       type-fest: 2.19.0
     dev: true
